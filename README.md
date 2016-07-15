@@ -1,2 +1,9 @@
 # logback-manager
-Simplified logback configuration.
+
+```
+<dependency>
+    <groupId>es.molabs</groupId>
+    <artifactId>logback-manager</artifactId>
+    <version>1.0.0</version>
+</dependency>
+```
