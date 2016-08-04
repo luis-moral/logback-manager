@@ -132,9 +132,9 @@ public class LogbackManager
 		{
 			// StatusPrinter will shot this exception
 		} 
-		catch (Throwable t) 
+		catch (Exception e) 
 		{
-			t.printStackTrace();
+			e.printStackTrace();
 		}
 		
 		// Adds the context to the level propagator for JUL
